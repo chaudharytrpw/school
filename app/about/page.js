@@ -1,7 +1,11 @@
 import React from "react";
+import AboutHero from "../components/AboutHero";
 
 export default function Page() {
   return (
+    <>
+    <AboutHero/>
+    
     <section id="about" className="w-full  text-white py-14 px-4 sm:px-6 lg:px-8">
 
       <div className="max-w-7xl mx-auto">
@@ -79,5 +83,6 @@ export default function Page() {
 
       </div>
     </section>
+    </>
   );
 }

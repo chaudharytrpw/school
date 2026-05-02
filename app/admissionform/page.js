@@ -1,7 +1,10 @@
 import React from "react";
+import Admissionhero from "../components/Admissionhero";
 
 export default function AdmissionForm() {
   return (
+    <> 
+    <Admissionhero/>
     <section className="w-full min-h-screen bg-[#d4f3d2] text-[#0e2035] py-14 px-4 sm:px-6 lg:px-8">
 
       <div className="max-w-6xl mx-auto">
@@ -88,6 +91,7 @@ export default function AdmissionForm() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

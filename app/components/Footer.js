@@ -21,7 +21,7 @@ export default function Footer() {
           <p>
             USRI PANDEY, NEDAULI KARAUNDL, LALGANJ TEHSIL DISTRICT MIRZAPUR
           </p>
-          <p>स्थापित वर्ष 2015</p>
+          <p>स्थापित वर्ष 2000</p>
           <p>LALGANJ MIRZAPUR - 231211</p>
         </div>
 

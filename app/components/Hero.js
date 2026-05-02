@@ -62,7 +62,7 @@ export default function Hero() {
               <div className="grid grid-cols-3 border border-white rounded-xl overflow-hidden mb-5">
                 {[
                   { label: "पता", value: "Lalganj Tehsil, Mirzapur" },
-                  { label: "स्थापना", value: "2015" },
+                  { label: "स्थापना", value: "2000" },
                   { label: "Mobile", value: "7428044077" },
                 ].map((item, i) => (
                   <div

@@ -17,13 +17,13 @@ export default function ClassesTeachers() {
 
         {/* Heading */}
         <h2 className="text-center text-[20px] sm:text-[24px] md:text-[28px] font-bold text-[#b8953a] mb-10">
-          कक्षा 1 से 12 तक शिक्षा एवं शिक्षक
+          कक्षा 1 से 10 तक शिक्षा एवं शिक्षक
         </h2>
 
         {/* Classes Section */}
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 mb-10">
 
-          {[...Array(12)].map((_, i) => (
+          {[...Array(10)].map((_, i) => (
             <div
               key={i}
               className="bg-[#162d4a]/60 border border-white/10 rounded-xl py-3 text-center hover:bg-[#162d4a] transition"
